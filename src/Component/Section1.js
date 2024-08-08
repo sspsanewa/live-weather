@@ -44,7 +44,7 @@ const Section1 = () => {
 
     return (
         <div className='pt-10 h-screen bg-cover bg-center' style={{ backgroundImage: `url(${bg1})` }}>
-            <div className='flex justify-center items-center h-full ml-32 sm:ml-28 md:ml-40 lg:ml-40 xl:ml-40"'>
+            <div className='flex justify-center items-center h-full ml-20 sm:ml-28 md:ml-40 lg:ml-40 xl:ml-40"'>
                 <AliceCarousel
                     responsive={{
                         0: { items: 1 },

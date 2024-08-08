@@ -52,7 +52,7 @@ const Address = (props) => {
     return (
         <div className='pt-12 mb-12 pb-12 bg-black'>
             <div className=' flex  justify-center'>
-                <div className='w-96 '>
+                <div className='w-84 '>
                     <GooglePlacesAutocomplete
                         apiKey="AIzaSyDcSU4Nf_aUoxxAann6-x4gemQWbdxWj0Q"
 
@@ -72,7 +72,7 @@ const Address = (props) => {
                     <div className='flex flex-col justify-center items-center md:flex-row md:justify-center md:items-center gap-4 sm:gap-6 md:gap-10 lg:gap-12 xl:gap-16'>                        <Card >
                         <CardActionArea >
                             <CardMedia
-                                sx={{ width: { sm: '300px', md: '200px' }, height: { sm: '300px', md: '200px' } }}
+                                sx={{ width: { xs: '300px', md: '200px' }, height: { xs: '300px', md: '200px' } }}
                                 component="img"
                                 image={locations}
                                 alt="green iguana"
@@ -93,7 +93,7 @@ const Address = (props) => {
                         <Card >
                             <CardActionArea>
                                 <CardMedia
-                                    sx={{ width: { sm: '300px', md: '200px' }, height: { sm: '300px', md: '200px' } }}
+                                    sx={{ width: { xs: '300px', md: '200px' }, height: { xs: '300px', md: '200px' } }}
                                     component="img"
                                     image={temp}
                                     alt="green iguana"
@@ -114,7 +114,7 @@ const Address = (props) => {
                         <Card >
                             <CardActionArea>
                                 <CardMedia
-                                    sx={{ width: { sm: '300px', md: '200px' }, height: { sm: '300px', md: '200px' } }}
+                                    sx={{ width: { xs: '300px', md: '200px' }, height: { xs: '300px', md: '200px' } }}
                                     component="img"
                                     image={wind}
                                     alt="green iguana"
@@ -135,7 +135,7 @@ const Address = (props) => {
                         <Card >
                             <CardActionArea>
                                 <CardMedia
-                                    sx={{ width: { sm: '300px', md: '200px' }, height: { sm: '300px', md: '200px' } }}
+                                    sx={{ width: { xs: '300px', md: '200px' }, height: { xs: '300px', md: '200px' } }}
                                     component="img"
                                     image={conditions}
                                     alt="green iguana"
@@ -158,7 +158,7 @@ const Address = (props) => {
                         <Card >
                             <CardActionArea>
                                 <CardMedia
-                                    sx={{ width: { sm: '300px', md: '200px' }, height: { sm: '300px', md: '200px' } }}
+                                    sx={{ width: { xs: '300px', md: '200px' }, height: { xs: '300px', md: '200px' } }}
                                     component="img"
                                     image={visibility}
                                     alt="green iguana"
